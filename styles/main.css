@@ -44,7 +44,7 @@ h1 {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-shadow: 2px 2px 2px #000;
-  background: #eee radial-gradient(circle farthest-side at center center, #fff 10%, #3d3d40 75%, #eee 90%);
+  background-color: #eee;
   cursor: pointer; }
 
 .restart {
