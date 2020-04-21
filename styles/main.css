@@ -1,0 +1,65 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #eee; }
+
+h1 {
+  color: antiquewhite;
+  margin: 10px auto;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000;
+  font-size: 50px; }
+
+.field {
+  width: 320px;
+  height: 320px;
+  background: darkgrey;
+  border: 19px ridge darkgrey;
+  border-radius: 9px;
+  position: relative;
+  margin: 10px auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
+.number {
+  width: 80px;
+  height: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid slategray;
+  line-height: 70px;
+  text-align: center;
+  color: dimgray;
+  font-size: 60px;
+  border-radius: 10px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-shadow: 2px 2px 2px #000;
+  background: #eee radial-gradient(circle farthest-side at center center, #fff 10%, #3d3d40 75%, #eee 90%);
+  cursor: pointer; }
+
+.restart {
+  margin: 10px auto;
+  background: #5c5c5c;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  height: 58px;
+  width: 155px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  line-height: 58px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 6px 0 rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 6px 0 rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=main.css.map */
